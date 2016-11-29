@@ -32,8 +32,8 @@ lazy val root = Project(
   baseSettings: _*
 ).settings(
   routesGenerator := StaticRoutesGenerator,
-  libraryDependencies ++= (
-    Nil
+  libraryDependencies ++= Seq(
+    
   )
 )
 
